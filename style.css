@@ -1,0 +1,28 @@
+body {
+    background-color: #FDD36A;
+}
+
+hr {
+    width: 35%;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: grey;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+h1,
+h2 {
+    color: chocolate;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:link {
+    color: blueviolet;
+}
