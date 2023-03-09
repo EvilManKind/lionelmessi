@@ -1,28 +1,212 @@
 body {
-    background-color: #FDD36A;
+    margin: 0;
+    background-color: #37306B;
+    color: white;
 }
 
 hr {
-    width: 35%;
+    width: 8%;
     border-style: dotted none none;
-    border-width: 5px;
-    border-color: grey;
+    border-width: 15px;
+    border-color: rgb(68, 11, 68);
 }
 
-img {
-    height: 200px;
-    width: 300px;
+h1 {
+    color: rgb(180, 206, 216);
+    margin-top: 0;
+    text-align: center;
 }
 
-h1,
-h2 {
-    color: chocolate;
+a:link,
+a:visited {
+    color: white;
 }
 
 a:hover {
-    color: purple;
+    color: gold;
 }
 
-a:link {
-    color: blueviolet;
+input {
+    display: inline-block;
+    font-size: 35px;
+}
+
+input:hover {
+    background-color: gold;
+}
+
+span:hover {
+    color: gold;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+/* .......................................BOXES.................................... */
+.box1-1 {
+    text-align: center;
+}
+
+.box1-2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.box1-2:hover {
+    transform: scale(110%, 110%);
+}
+
+.box2-1 {
+    text-align: center;
+}
+
+.box2-1:hover {
+    transform: scale(110%, 110%);
+}
+
+.box2-2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 150px 90px;
+}
+
+.collective {
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.personal {
+    font-size: 30px;
+    width: fit-content;
+    position: absolute;
+    right: 100px;
+    top: 2360px;
+}
+
+.box4 {
+    margin: 80px 10px 80px;
+    height: 1000px;
+    border-style: double;
+    border-color: cyan;
+    border-width: 5px;
+    border-radius: 10px;
+    font-size: 35px;
+
+}
+
+.box4-1 {
+    background-color: #B3E5BE;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.box4-2 {
+    background-color: #9DC08B;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.box4-3 {
+    background-color: #655DBB;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100%;
+    left: 50%;
+}
+
+.box4-4 {
+    background-color: #FCC2FC;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100%;
+    left: 50%;
+}
+
+.box5 {
+    background-color: burlywood;
+    font-size: 30px;
+    margin: 10px 10px 80px 10px;
+    padding: 15px 10px 10px 500px;
+    border-style: none ridge ridge none;
+    border-width: 0px 10px 10px 0px;
+    border-radius: 5%;
+    border-color: cyan
+}
+
+.box6 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.review {
+    font-size: 35px;
+}
+
+.review1,
+.review2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* ..................................PICTURES.......................... */
+.moon {
+    width: 250px;
+    position: relative;
+    right: 200px;
+    top: 30px;
+}
+
+.crown {
+    position: relative;
+    left: 145px;
+    top: 13px;
+}
+
+.cloud1 {
+    position: relative;
+    bottom: 350px;
+    left: 600px;
+}
+
+.cloud2 {
+    position: relative;
+    bottom: 70px;
+    right: 650px;
+}
+
+.star {
+    position: relative;
+    bottom: 50px;
+}
+
+.messi {
+    width: 500px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+.trophies {
+    margin-left: 5%;
+    border-radius: 10%;
+}
+
+.goat {
+    height: 600px;
+    width: 400px;
+    border-radius: 5%;
+    position: absolute;
+    left: 50px;
+    top: 4335px;
+
 }
